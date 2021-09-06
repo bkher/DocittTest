@@ -44,7 +44,7 @@ public class AutomationPracticeTest extends BaseClass {
 		}
 	}
 
-	@Test(enabled = true, priority = 2, description = "Test 2")
+	@Test(enabled = false, priority = 2, description = "Test 2")
 	public void GetAllLinksOfMenu() {
 
 		logger = report.createTest("Clicked multiple link from home page");

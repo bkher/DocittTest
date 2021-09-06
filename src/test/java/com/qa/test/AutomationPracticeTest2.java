@@ -23,7 +23,7 @@ public class AutomationPracticeTest2 extends BaseClass2 {
 
 	public void AddTshirtInCartScenario() throws InterruptedException {
 
-		logger = report.createTest("login and Add Tsgirt on Cart");
+		//logger = report.createTest("login and Add Tsgirt on Cart");
 		try {
 			logger.info("CLick on Login");
 			page1 = new Com_LoginPage(driver);
@@ -47,7 +47,7 @@ public class AutomationPracticeTest2 extends BaseClass2 {
 		}
 	}
 
-	@Test(enabled = true, priority = 2, description = "Test 2")
+	@Test(enabled = false, priority = 2, description = "Test 2")
 	public void GetAllLinksOfMenu() {
 
 		logger = report.createTest("Clicked multiple link from home page");

@@ -38,7 +38,7 @@ public class BaseClass {
 		try {
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream(
-					("//home//bhagatsinhkher//eclipse-workspace//CongaaTest//src//main//java//com//qa//config//config.properties"));
+					("C:\\Users\\Bhagi\\git\\DocittTest\\src\\main\\java\\com\\qa\\config\\config.properties"));
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -60,7 +60,7 @@ public class BaseClass {
 	public void setupSuite() {
 		Reporter.log("setting up report", true);
 		utils = new commonutiles();
-		String reporLocation = "//home//bhagatsinhkher//eclipse-workspace//CongaaTest//src//test//java//Report//extentReport "
+		String reporLocation = "C:\\Users\\Bhagi\\git\\DocittTest\\report\\extentReport"
 				+ utils.GetDateAndTime() + ".html";
 		ExtentHtmlReporter extent = new ExtentHtmlReporter(reporLocation);
 		report = new ExtentReports();
@@ -72,8 +72,7 @@ public class BaseClass {
 	public void OpenBrowser() {
 		try {
 			Reporter.log("set for Opening browser", true);
-			System.setProperty("webdriver.chrome.driver", "//home//bhagatsinhkher//chromedriver_linux64//chromedriver");
-
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bhagi\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("http://Automationpractice.com");

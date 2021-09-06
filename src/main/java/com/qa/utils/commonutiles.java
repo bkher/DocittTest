@@ -76,8 +76,8 @@ public class commonutiles extends BaseClass {
 	public String capturescreenshot(WebDriver driver) {
 
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		String screenshotPath = System.getProperty("user.dir") + "//Screenshot//scrren" + GetDateAndTime() + ".png";
-
+	//	String screenshotPath = System.getProperty("user.dir") + "\\Screenshot\\screen\\screen" + GetDateAndTime() + ".png";
+		String screenshotPath = "C:\\Users\\Bhagi\\git\\DocittTest\\Screenshot\\screen\\screen"+GetDateAndTime()+".png";
 		try {
 			FileHandler.copy(src, new File(screenshotPath));
 		} catch (Exception e) {
@@ -89,7 +89,7 @@ public class commonutiles extends BaseClass {
 
 	public String GetDateAndTime() {
 
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("ddmmyyyy HH:MM:ss");
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("ddmmyyyyHHMMss");
 		LocalDateTime now = LocalDateTime.now();
 
 		return dtf.format(now);

@@ -7,9 +7,8 @@
         <methods>
           <include name="OpenBrowser"/>
           <include name="CloseBrowser"/>
-          <include name="AddTshirtInCartScenario"/>
-          <include name="tearDownMethod"/>
           <include name="setupSuite"/>
+          <include name="AddTshirtInCartScenario"/>
         </methods>
       </class> <!-- com.qa.test.AutomationPracticeTest2 -->
     </classes>

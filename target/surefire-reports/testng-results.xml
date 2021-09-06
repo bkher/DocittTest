@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up report]]>
+    </line>
+    <line>
+      <![CDATA[setting up report is done]]>
+    </line>
+    <line>
+      <![CDATA[set for Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser open and Url loaded]]>
+    </line>
+    <line>
+      <![CDATA[Take screenshot and attached to report activities started]]>
+    </line>
+    <line>
+      <![CDATA[Take screenshot and attached to report activities completed for success test]]>
+    </line>
+    <line>
+      <![CDATA[report flush activity started]]>
+    </line>
+    <line>
+      <![CDATA[browser close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-06T15:08:32Z" name="com.qa.test.AutomationPracticeTest" finished-at="2021-09-06T15:09:30Z" duration-ms="58199">
+    <groups>
+    </groups>
+    <test started-at="2021-09-06T15:08:32Z" name="Command line test" finished-at="2021-09-06T15:09:30Z" duration-ms="58199">
+      <class name="com.qa.test.AutomationPracticeTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:38:32Z" name="setupSuite" finished-at="2021-09-06T20:38:32Z" duration-ms="219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting up report]]>
+            </line>
+            <line>
+              <![CDATA[setting up report is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:38:32Z" name="OpenBrowser" finished-at="2021-09-06T20:38:54Z" duration-ms="22597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[set for Opening browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser open and Url loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="AddTshirtInCartScenario()[pri:1, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:38:54Z" name="AddTshirtInCartScenario" description="Test 1" finished-at="2021-09-06T20:39:29Z" duration-ms="34782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTshirtInCartScenario -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:39:29Z" name="tearDownMethod" finished-at="2021-09-06T20:39:30Z" duration-ms="725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddTshirtInCartScenario status=SUCCESS method=AutomationPracticeTest.AddTshirtInCartScenario()[pri:1, instance:com.qa.test.AutomationPracticeTest@17d677df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Take screenshot and attached to report activities started]]>
+            </line>
+            <line>
+              <![CDATA[Take screenshot and attached to report activities completed for success test]]>
+            </line>
+            <line>
+              <![CDATA[report flush activity started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:39:30Z" name="CloseBrowser" finished-at="2021-09-06T20:39:30Z" duration-ms="69" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.test.AutomationPracticeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qa.test.AutomationPracticeTest -->
+</testng-results>

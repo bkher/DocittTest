@@ -9,7 +9,6 @@
       <class name="com.qa.test.AutomationPracticeTest2">
         <methods>
           <include name="OpenBrowser"/>
-          <include name="CloseBrowser"/>
           <include name="setupSuite"/>
           <include name="AddTshirtInCartScenario"/>
           <include name="GetAllLinksOfMenu"/>

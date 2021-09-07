@@ -6,8 +6,8 @@
     </listeners>	
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.qa.test.AutomationPracticeTest"/>
-      <!--  class name="com.qa.test.Weathertest" -->
+      <class name="com.qa.test.AutomationPracticeTest1"/>
+      <!--  class name="com.qa.test.Weathertest1" -->
     </classes>
     
   </test> <!-- Test -->

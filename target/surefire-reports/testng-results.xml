@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
       <![CDATA[setting up report]]>
@@ -26,12 +26,12 @@
       <![CDATA[browser close]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-09-06T15:08:32Z" name="com.qa.test.AutomationPracticeTest" finished-at="2021-09-06T15:09:30Z" duration-ms="58199">
+  <suite name="com.qa.test.AutomationPracticeTest" duration-ms="74375" started-at="2021-09-07T14:12:24Z" finished-at="2021-09-07T14:13:38Z">
     <groups>
     </groups>
-    <test started-at="2021-09-06T15:08:32Z" name="Command line test" finished-at="2021-09-06T15:09:30Z" duration-ms="58199">
+    <test name="Command line test" duration-ms="74375" started-at="2021-09-07T14:12:24Z" finished-at="2021-09-07T14:13:38Z">
       <class name="com.qa.test.AutomationPracticeTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:38:32Z" name="setupSuite" finished-at="2021-09-06T20:38:32Z" duration-ms="219" status="PASS">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.qa.test.AutomationPracticeTest@2812cbfa]" name="setupSuite" is-config="true" duration-ms="295" started-at="2021-09-07T19:42:24Z" finished-at="2021-09-07T19:42:24Z">
           <reporter-output>
             <line>
               <![CDATA[setting up report]]>
@@ -41,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:38:32Z" name="OpenBrowser" finished-at="2021-09-06T20:38:54Z" duration-ms="22597" status="PASS">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.qa.test.AutomationPracticeTest@2812cbfa]" name="OpenBrowser" is-config="true" duration-ms="22442" started-at="2021-09-07T19:42:24Z" finished-at="2021-09-07T19:42:46Z">
           <reporter-output>
             <line>
               <![CDATA[set for Opening browser]]>
@@ -51,15 +51,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="AddTshirtInCartScenario()[pri:1, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:38:54Z" name="AddTshirtInCartScenario" description="Test 1" finished-at="2021-09-06T20:39:29Z" duration-ms="34782" status="PASS">
+        <test-method status="PASS" signature="AddTshirtInCartScenario()[pri:1, instance:com.qa.test.AutomationPracticeTest@2812cbfa]" name="AddTshirtInCartScenario" duration-ms="50836" started-at="2021-09-07T19:42:47Z" description="Test 1" finished-at="2021-09-07T19:43:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddTshirtInCartScenario -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:39:29Z" name="tearDownMethod" finished-at="2021-09-06T20:39:30Z" duration-ms="725" status="PASS">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.AutomationPracticeTest@2812cbfa]" name="tearDownMethod" is-config="true" duration-ms="866" started-at="2021-09-07T19:43:37Z" finished-at="2021-09-07T19:43:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddTshirtInCartScenario status=SUCCESS method=AutomationPracticeTest.AddTshirtInCartScenario()[pri:1, instance:com.qa.test.AutomationPracticeTest@17d677df] output={null}]]]>
+                <![CDATA[[TestResult name=AddTshirtInCartScenario status=SUCCESS method=AutomationPracticeTest.AddTshirtInCartScenario()[pri:1, instance:com.qa.test.AutomationPracticeTest@2812cbfa] output={null}]]]>
               </value>
             </param>
           </params>
@@ -75,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.test.AutomationPracticeTest@17d677df]" started-at="2021-09-06T20:39:30Z" name="CloseBrowser" finished-at="2021-09-06T20:39:30Z" duration-ms="69" status="PASS">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.test.AutomationPracticeTest@2812cbfa]" name="CloseBrowser" is-config="true" duration-ms="135" started-at="2021-09-07T19:43:38Z" finished-at="2021-09-07T19:43:38Z">
           <reporter-output>
             <line>
               <![CDATA[browser close]]>
